@@ -86,6 +86,62 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* General Styles */
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  color: #e2e3ed;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+}
+
+ul,
+ol {
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  font-size: 2.25em;
+  line-height: 43px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 18px;
+}
+
+img {
+}
+
+figure {
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -93,6 +149,7 @@ textarea {
 
 /* -------------------- Base Header - Footer Styles -------------------- */
 header {
+  background: #202322;
   display: flex;
   justify-content: center;
   padding: 15px 0;
@@ -107,6 +164,7 @@ header .content-wrapper {
 }
 
 .header-divider {
+  background: #3a3a3a;
   width: 100%;
   height: 1px;
   margin: 10px 0 20px 0;
@@ -114,6 +172,8 @@ header .content-wrapper {
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: bold;
 }
 
 header nav ul {
@@ -125,6 +185,7 @@ header nav ul {
 }
 
 footer {
+  background: #202322;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -153,6 +214,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -171,6 +233,7 @@ footer .copyright {
 /* Aside */
 
 aside {
+  background: #527158;
   display: flex;
   justify-content: center;
 }
@@ -205,11 +268,13 @@ aside {
 /* Reviews */
 
 .reviews {
+  background: #2a423a;
   display: flex;
   justify-content: center;
 }
 
 .reviews h2 {
+  line-height: 30px;
   margin-bottom: 40px;
 }
 
@@ -223,6 +288,7 @@ aside {
 /* Mission */
 
 .mission {
+  background: #527158;
   display: flex;
   justify-content: center;
 }
@@ -230,6 +296,7 @@ aside {
 /* Contact Section */
 
 .contact-section {
+  background: #2a423a;
   display: flex;
   justify-content: center;
 }
@@ -241,6 +308,7 @@ aside {
 /* -------------------- Mobile Styles - FAQ Page -------------------- */
 
 .faq {
+  background: #527158;
   display: flex;
   justify-content: center;
 }
@@ -254,10 +322,12 @@ aside {
 }
 
 .faq h2 {
+  line-height: 30px;
   margin-bottom: 40px;
 }
 
 .faq-content {
+  line-height: 24px;
   margin-bottom: 50px;
 }
 
