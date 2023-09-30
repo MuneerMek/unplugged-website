@@ -340,20 +340,21 @@ input[type="button"] {
 
 /* Map */
 
-.map figure {
-  width: 100%;
-  height: 0;
-  padding-bottom: 125%;
-  overflow: hidden;
+.map .embed-container {
   position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
 }
-
-.map iframe {
-  width: 100%;
-  height: 100%;
+.map .embed-container iframe,
+.map .embed-container object,
+.map .embed-container embed {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /* Contact Section */
@@ -642,7 +643,11 @@ input[type="button"] {
     width: 45%;
   }
 
-  .contact-section .content-wrapper h2 {
+  .map .embed-container {
+    padding-bottom: 55%;
+  }
+
+  .map .contact-section .content-wrapper h2 {
     width: 80%;
   }
 
@@ -757,6 +762,10 @@ input[type="button"] {
   .contact-section .content-wrapper h2 {
     width: 95%;
     font-size: 3em;
+  }
+
+  .map .embed-container {
+    padding-bottom: 45%;
   }
 
   .contact-content h4 {
