@@ -115,6 +115,7 @@ h2 {
   font-family: "Poppins", sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+  margin: 0;
 }
 
 h3,
@@ -176,7 +177,7 @@ header figure {
 
 header nav {
   width: 60%;
-  font-size: 1.125em;
+  font-size: 1.25em;
   font-weight: bold;
   text-transform: uppercase;
 }
